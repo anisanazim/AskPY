@@ -60,10 +60,18 @@ st.markdown("""
         border-left: 4px solid #ff9800;
         margin: 0.5rem 0;
     }
+    .demo-subtitle {
+        text-align: center;
+        color: #666;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+    }
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<h1 class="main-header">AskPy – Supercharged with LangChain & Smart Features</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">AskPy</h1>', unsafe_allow_html=True)
+
+st.markdown('<div class="demo-subtitle">RAG Chatbot – Supercharged with LangChain & Smart Features</div>', unsafe_allow_html=True)
 
 
 @st.cache_resource(show_spinner="Initializing LangChain RAG Pipeline...")
