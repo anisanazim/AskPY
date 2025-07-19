@@ -1,0 +1,39 @@
+# Company Python Development Guide - Basics
+
+## Internal Python Standards v2.1
+
+This document outlines our company's Python development standards and best practices.
+
+### Variable Naming (Company Standard)
+Our company requires specific variable naming conventions:
+
+```python
+# Company approved naming
+employee_count = 50        # snake_case for variables
+COMPANY_NAME = "TechCorp"  # UPPER_CASE for constants
+user_data_dict = {}        # descriptive names required
+```
+
+### Data Types (Internal Guide)
+Company-approved data type usage:
+
+1. **Strings**: Use f-strings for all formatting
+2. **Numbers**: Always validate input ranges
+3. **Lists**: Prefer list comprehensions for performance
+4. **Dictionaries**: Use for employee records
+
+### Internal Code Examples
+```python
+# Company standard for employee data
+employee_record = {
+    'id': 'EMP001',
+    'name': 'John Smith',
+    'department': 'Engineering',
+    'salary': 75000
+}
+
+def format_employee_id(dept_code, sequence):
+    return f"{dept_code}{sequence:04d}"
+```
+
+This is internal documentation - Company Engineering Team

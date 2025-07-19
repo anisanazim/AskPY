@@ -1,0 +1,26 @@
+# Core application and UI
+streamlit>=1.33.0
+
+# Vector search and embeddings
+faiss-cpu==1.7.4
+sentence-transformers>=2.7.0 # Upgraded to be compatible with modern huggingface-hub
+huggingface-hub>=0.22.0
+
+# Document processing
+pypdf>=4.0.0 # Replaces the outdated PyPDF2
+
+# Configuration and environment
+python-dotenv==1.0.0
+pydantic-settings>=2.0.0 # Explicitly include for settings management
+
+# APIs and web scraping
+groq>=0.4.1
+requests==2.31.0
+beautifulsoup4==4.12.2
+duckduckgo-search==8.1.1
+
+# Utilities and data handling
+loguru==0.7.2
+pandas==2.1.0
+numpy==1.24.3
+tiktoken==0.5.1

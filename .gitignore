@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+myenv39/
+
+# Environment variables and secrets
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# Log files
+logs/
+*.log
+
+# Compiled model or vector index files
+vector_db/
+*.pkl
+*.bin
+*.npy
+
+# Streamlit cache (if used)
+.streamlit/
+.cache/
+
+# Misc
+*.swp
